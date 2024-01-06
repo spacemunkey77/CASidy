@@ -1,7 +1,11 @@
 /node_modules
+/public/js
+/public/css
 /public/hot
 /public/storage
 /storage/*.key
+/credentials
+/documentation
 /vendor
 .env
 .phpunit.result.cache
