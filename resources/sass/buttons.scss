@@ -1,0 +1,43 @@
+// Fonts
+@import url("https://fast.fonts.net/cssapi/ff43579c-17ff-45ac-b4a6-5de5fcb37f03.css");
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 14px;
+}
+
+nav {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'Proxima Nova W01';
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16.5pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    padding-top: 30px;
+    padding: 1.5em;
+}
+
+label {
+    background-color: #2182db;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: .25em 0 .25em .5em;
+}

@@ -1,0 +1,90 @@
+ // Fonts
+@import url("https://fast.fonts.net/cssapi/ff43579c-17ff-45ac-b4a6-5de5fcb37f03.css");
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body, td {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 12pt;
+}
+
+nav {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'Proxima Nova W01';
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16.5pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.paddy-one {
+    display: inline-block;
+    width: 89px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.paddy-two {
+    display: inline-block;
+    width: 30px;
+}
+
+.lock-operations {
+    width: 100%;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.status-links a {
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr td.battery {
+    padding: 0px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+tr td.battery > div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+tr td.battery > div > div.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00DA00;
+    z-index: 1;
+}
+
+tr td.battery > div > div.battpercent{
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 7px;
+    z-index: 15;
+}

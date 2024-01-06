@@ -1,0 +1,111 @@
+// Fonts
+@import url("https://fast.fonts.net/cssapi/ff43579c-17ff-45ac-b4a6-5de5fcb37f03.css");
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+nav {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'Proxima Nova W01';
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16.5pt;
+}
+
+body {
+    font-family: "Helvetica Neue";
+    font-size: 10pt;
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: #4d4d4d;
+    margin: 0px;
+}
+
+.row {
+    clear:both;
+    padding-left: 8px;
+}
+
+.lightSquare,
+.outletSquare {
+    float: left;
+    margin: 7px;
+    width: 95px;
+    height: 95px;
+    border-radius: 20px;
+    background-color: rgb(235, 178, 32);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.outletSquare {
+    height: 98px;
+}
+
+.lightSquare img,
+.outletSquare img {
+    margin-bottom: .3em;
+}
+
+div.gearButton {
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+div.alarmButton {
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 3px;
+    font-size: 34px;
+    margin-right: 16px;
+}
+
+div.gearButton img {
+    width: 35px;
+    height: 35px;
+    padding-top: 7px;
+}
+
+.homeButton {
+    float: right;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.logoutButton {
+    float: right;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+/* Button Styling  */
+div.wrapper {
+    float: left;
+    margin-left: 4px;
+    vertical-align: top;
+    margin-top: -40px;
+}
+
+div.push-right {
+    margin-left: 10px;
+}
+
+#control-buttons {
+    margin: 1.5em;
+}

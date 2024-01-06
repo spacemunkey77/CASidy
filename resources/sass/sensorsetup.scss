@@ -1,0 +1,193 @@
+// Fonts
+@import url("https://fast.fonts.net/cssapi/ff43579c-17ff-45ac-b4a6-5de5fcb37f03.css");
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: "Helvetica Neue";
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: #4d4d4d;
+    margin: 0px;
+}
+
+nav {
+    font-family: 'Proxima Nova W01';
+    font-weight:300;
+    font-style:normal;
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'Proxima Nova W01';
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16.5pt;
+}
+
+main {
+    padding: 30px 1em 0 1em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.row {
+    clear:both;
+    padding-left: 8px;
+}
+
+.pushSquare {
+    float: left;
+    margin: 7px;
+    width: 105px;
+    height: 78px;
+    border-radius: 20px;
+    background-color: rgb(235, 178, 32);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gearButton {
+    float: left;
+    width: 130px;
+    margin-right: 35px;
+}
+
+/* Button Styling  */
+div.wrapper {
+    float: left;
+    margin-left: 4px;
+    vertical-align: top;
+    margin-top: -40px;
+}
+
+div.push-right {
+    margin-left: 10px;
+}
+
+input#homeMode,
+input#away,
+input#testing,
+input#nightsafety {
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+}
+
+input#homeMode + label,
+input#away + label,
+input#testing + label,
+input#nightsafety + label {
+  display: block;
+  position: relative;
+  box-shadow: inset 0 0 0px 1px #d5d5d5;
+  text-indent: -5000px;
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+}
+
+input#homeMode + label:before,
+input#away + label:before,
+input#testing + label:before,
+input#nightsafety + label:before  {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+input#homeMode + label:before {
+    background: rgba(219, 11, 11, 0);
+}
+input#away + label:before {
+    background: rgba(235, 152, 152, 0);
+}
+input#testing + label:before {
+    background: rgba(250, 148, 52, 0);
+}
+input#nightsafety + label:before {
+    background: rgba(189, 28, 149, 0);
+}
+
+input#homeMode + label:after,
+input#away + label:after,
+input#testing + label:after,
+input#nightsafety + label:after  {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .2);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+input#homeMode:checked + label:before,
+input#away:checked + label:before,
+input#testing:checked + label:before,
+input#nightsafety:checked + label:before  {
+  width: 50px;
+}
+
+input#homeMode:checked + label:before {
+  background: rgba(219, 11, 11, 1);
+}
+input#away:checked + label:before {
+  background: rgba(235, 152, 152, 1);
+}
+input#testing:checked + label:before {
+  background: rgba(250, 148, 52, 1);
+}
+input#nightsafety:checked + label:before {
+  background: rgba(189, 28, 149, 1);
+}
+
+input#homeMode:checked + label:after,
+input#away:checked + label:after,
+input#testing:checked + label:after,
+input#nightsafety:checked + label:after {
+  left: 20px;
+}
+input#homeMode:checked + label:after {
+    box-shadow: inset 0 0 0 1px rgba(219, 11, 11, 1), 0 2px 4px rgba(0, 0, 0, .2);
+}
+input#away:checked + label:after {
+    box-shadow: inset 0 0 0 1px rgba(235, 152, 152, 1), 0 2px 4px rgba(0, 0, 0, .2);
+}
+input#testing:checked + label:after {
+    box-shadow: inset 0 0 0 1px rgba(250, 148, 52, 1), 0 2px 4px rgba(0, 0, 0, .2);
+}
+input#nightsafety:checked + label:after {
+    box-shadow: inset 0 0 0 1px rgba(189, 28, 149, 1), 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.buttondesc {
+    clear: both;
+    padding-bottom: .77em;
+    margin-left: .7em;
+}
+
+.clear {
+    clear: both;
+    margin: 1em 0;
+    padding-bottom: 2em;
+}
